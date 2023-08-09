@@ -8,6 +8,6 @@ data:
     <html>
     <h2> This is Deployment for NGINX </h2>
     <h4> GenAI-UC-11 </h4>
-    <p> Pod ID: {{ .Values.POD_ID }} </p>
+    <p> v1 </p>
 
     </html>

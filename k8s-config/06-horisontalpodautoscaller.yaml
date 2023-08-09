@@ -8,8 +8,8 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: nginx-deployment
-  minReplicas: 2            # Minimum number of replicas
-  maxReplicas: 6            # Maximum number of replicas
+  minReplicas: 2
+  maxReplicas: 6
   metrics:
   - type: Resource
     resource:
@@ -23,4 +23,4 @@ spec:
       name: memory
       target:
         type: Utilization
-        averageValue: 60Mi   # Adjust this value as needed
+        averageValue: 60Mi
